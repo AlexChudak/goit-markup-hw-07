@@ -1,3 +1,21 @@
+.button-footer {
+  color: #FFFFFF;
+  background-color: #2196f3;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  padding: 10px 32px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
 body {
   color: #212121;
   background-color: white;
@@ -179,6 +197,92 @@ footer {
 .address-link {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.footer-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+
+.footer-links .item {
+  display: block;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 12px;
+  margin-right: 10px;
+}
+
+.footer-links .item:hover {
+  background-color: #2196f3;
+}
+
+.footer-links .item .icon {
+  width: 20px;
+  height: 20px;
+  fill: #FFFFFF;
+}
+
+.icon-telegram {
+  width: 24px;
+  height: 24px;
+  fill: #FFFFFF;
+  margin-left: 8px;
+}
+
+.title-sender {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #FFFFFF;
+}
+
+.input-footer {
+  width: 358px;
+  height: 50px;
+  margin-right: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: #2F303A;
+}
+
+.email-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.button-footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.madeby {
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding-bottom: 21px;
+  padding-top: 18px;
+  color: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
 
 .cont .hero {
@@ -367,5 +471,27 @@ footer {
   -ms-flex-line-pack: center;
       align-content: center;
   padding-bottom: 24px;
+}
+
+.worker-links .item {
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.worker-links .item:hover {
+  background-color: #2196f3;
+}
+
+.worker-links .item .icon {
+  width: 20px;
+  height: 20px;
+  fill: #AFB1B8;
 }
 /*# sourceMappingURL=main.css.map */

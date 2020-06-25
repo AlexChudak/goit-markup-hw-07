@@ -7,8 +7,8 @@ $accent-color: #2196f3;
 
 // Плейсхолдеры
 %button {
-    color: white;
-    background-color: var(--primary-bg-color);
+    color: $white-text-color;
+    background-color: $accent-color;
   
     font-family: inherit;
     font-weight: 700;
