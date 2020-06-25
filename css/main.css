@@ -65,20 +65,120 @@ ul {
 }
 
 .site-nav .link {
+  display: block;
   color: #212121;
   font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link:hover, .site-nav .link:focus {
   color: #2196f3;
 }
 
+.site-nav .link-current {
+  display: block;
+  color: #2196f3;
+  font-size: 14px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+  text-decoration: none;
+}
+
+.site-nav .link-current::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 4px;
+  background: #2196f3;
+  border-radius: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
 .auth-nav .link {
   color: #757575;
+  font-size: 14px;
+  text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .auth-nav .link:hover, .auth-nav .link:focus {
   color: #2196f3;
+}
+
+.auth-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+}
+
+.link.mail {
+  margin-right: 30px;
+}
+
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-phone {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+footer {
+  background-color: #2f303a;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+}
+
+.footer-ul {
+  padding-top: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.logo-footer {
+  color: #FFFFFF;
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.18;
+  text-decoration: none;
+}
+
+.address {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+}
+
+.address-link {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 
 .cont .hero {
