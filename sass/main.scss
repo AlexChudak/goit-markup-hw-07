@@ -5,7 +5,10 @@
 @import"./components/portfolio";
 
 
-
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 // Hero
 .cont .hero {
@@ -57,6 +60,8 @@
     margin-top: 0px;
     margin-bottom: 50px;
   }
+
+
 // Features
 .features {
     display: flex; 
@@ -69,7 +74,7 @@
     &-fone {
         width:270px;
         height:120px;
-        background-color: $white-text-color;
+        background-color: #F5F4FA;;
         padding-left: 100px;
         padding-right: 100px;
         padding-top: 25px;
@@ -154,16 +159,20 @@
 
 //   Наша команда
 .ourteam {
-    background-color: $white-text-color;
+    background-color: #F5F4FA;
   }
 
   .ourteam-ul {
+    display:flex;
 
   .item {
     width: 270px;
     display: inline-flex;
     flex-direction: column;
     background-color:$white-text-color;
+
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 0px 0px 4px 4px;
   }
   .item + .item {
     margin-left: 30px;
@@ -196,6 +205,8 @@
     justify-content:space-evenly ;
     align-content:center;
     padding-bottom: 24px;
+    padding-left: 32px;
+    padding-right:32px;
 
     .item {
       display: block;
@@ -208,6 +219,8 @@
       padding-top: 12px;
       padding-bottom: 12px;
 
+      box-shadow:none;
+
       &:hover {
         background-color: $accent-color;
       }
@@ -218,6 +231,8 @@
         height: 20px;
         fill: #AFB1B8;
 
+        
+
       // &:hover {
       //   fill:$white-text-color;
       // }  
@@ -225,18 +240,20 @@
     }
   }
 
-
+  .worker-links .item:hover .icon {
+    fill:white;
+  }
 // Наши клиенты
+
+
+
 .clients {
+
   display:flex;
 
   .item +.item {
     margin-left:30px;
   }
-
-}
-
-.clients {
 
   .item {
   display: block;
@@ -248,22 +265,71 @@
 
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20p;
+  padding-bottom: 20px;
 
-  
+  &:hover {
+    border: 1px solid $accent-color;
+  }
 
-.icon {
+
+
+.icon1 {
     width: 44px;
     height: 49px;
-  
     fill:#AFB1B8;
     }
+
+.icon2 {
+    width: 40px;
+    height: 52px;
+    fill:#AFB1B8;
+    }
+
+.icon3 {
+   width: 41px;
+   height: 42px;
+   fill:#AFB1B8;
+   }
+
+.icon4 {
+width: 80px;
+height: 42px;
+fill:#AFB1B8;
+}
+
+.icon5 {
+width: 59px;
+height: 47px;
+fill:#AFB1B8;
+}
+
+.icon6 {
+width: 88px;
+height: 45px;
+fill:#AFB1B8;
+   }
+
   }
 
-  .item +.item {
-    margin-left:30px;
-  }
+}
 
+.clients .item:hover .icon1 {
+  fill:$accent-color;
+}
+.clients .item:hover .icon2 {
+  fill:$accent-color;
+}
+.clients .item:hover .icon3 {
+  fill:$accent-color;
+}
+.clients .item:hover .icon4 {
+  fill:$accent-color;
+}
+.clients .item:hover .icon5 {
+  fill:$accent-color;
+}
+.clients .item:hover .icon6 {
+  fill:$accent-color;
 }
 
 // Модальное окно

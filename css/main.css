@@ -1,4 +1,4 @@
-.button-footer {
+.button {
   color: #FFFFFF;
   background-color: #2196f3;
   font-family: inherit;
@@ -192,6 +192,7 @@ footer {
   font-size: 14px;
   line-height: 1.71;
   font-style: normal;
+  margin-top: 20px;
 }
 
 .address-link {
@@ -263,6 +264,7 @@ footer {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: 20px;
 }
 
 .button-footer {
@@ -271,6 +273,22 @@ footer {
   display: flex;
   padding-left: 29px;
   padding-right: 29px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  color: #FFFFFF;
+  background-color: #2196f3;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  text-align: center;
 }
 
 .madeby {
@@ -433,6 +451,11 @@ footer {
   margin-bottom: 20px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .cont .hero {
   padding-top: 200px;
   padding-bottom: 200px;
@@ -485,7 +508,7 @@ footer {
 .features-fone {
   width: 270px;
   height: 120px;
-  background-color: #FFFFFF;
+  background-color: #F5F4FA;
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 25px;
@@ -572,7 +595,13 @@ footer {
 }
 
 .ourteam {
-  background-color: #FFFFFF;
+  background-color: #F5F4FA;
+}
+
+.ourteam-ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .ourteam-ul .item {
@@ -585,6 +614,9 @@ footer {
       -ms-flex-direction: column;
           flex-direction: column;
   background-color: #FFFFFF;
+  -webkit-box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+          box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .ourteam-ul .item + .item {
@@ -619,6 +651,8 @@ footer {
   -ms-flex-line-pack: center;
       align-content: center;
   padding-bottom: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 .worker-links .item {
@@ -631,6 +665,8 @@ footer {
   padding-right: 12px;
   padding-top: 12px;
   padding-bottom: 12px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
 }
 
 .worker-links .item:hover {
@@ -641,6 +677,10 @@ footer {
   width: 20px;
   height: 20px;
   fill: #AFB1B8;
+}
+
+.worker-links .item:hover .icon {
+  fill: white;
 }
 
 .clients {
@@ -661,17 +701,71 @@ footer {
   border-radius: 4px;
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 20p;
+  padding-bottom: 20px;
 }
 
-.clients .item .icon {
+.clients .item:hover {
+  border: 1px solid #2196f3;
+}
+
+.clients .item .icon1 {
   width: 44px;
   height: 49px;
   fill: #AFB1B8;
 }
 
-.clients .item + .item {
-  margin-left: 30px;
+.clients .item .icon2 {
+  width: 40px;
+  height: 52px;
+  fill: #AFB1B8;
+}
+
+.clients .item .icon3 {
+  width: 41px;
+  height: 42px;
+  fill: #AFB1B8;
+}
+
+.clients .item .icon4 {
+  width: 80px;
+  height: 42px;
+  fill: #AFB1B8;
+}
+
+.clients .item .icon5 {
+  width: 59px;
+  height: 47px;
+  fill: #AFB1B8;
+}
+
+.clients .item .icon6 {
+  width: 88px;
+  height: 45px;
+  fill: #AFB1B8;
+}
+
+.clients .item:hover .icon1 {
+  fill: #2196f3;
+}
+
+.clients .item:hover .icon2 {
+  fill: #2196f3;
+}
+
+.clients .item:hover .icon3 {
+  fill: #2196f3;
+}
+
+.clients .item:hover .icon4 {
+  fill: #2196f3;
+}
+
+.clients .item:hover .icon5 {
+  fill: #2196f3;
+}
+
+.clients .item:hover .icon6 {
+  fill: #2196f3;
 }
 
 .backdrop {
