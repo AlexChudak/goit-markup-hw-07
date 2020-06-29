@@ -836,10 +836,6 @@ transform: translateY(-80px);
 .checkbox-field {
   display: flex;
   align-items: center;
-
- 
-
-  /* outline: 1px solid black; */
 }
 
 .checkbox {
